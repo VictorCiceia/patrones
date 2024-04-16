@@ -1,6 +1,7 @@
 import factory.PruebaAbstractFactory;
 import factory.PruebaMethodFactory;
 import observer.PruebaObserver;
+import strategy.PruebaStrategy;
 
 public class Main {
     public static void main(String[] args) {
@@ -27,6 +28,15 @@ public class Main {
         // OBSERVER
         PruebaObserver observer = new PruebaObserver();
         observer.prueba();
+
+
+        System.out.println("\n\n------------------------      STRATEGY    ----------------------------------");
+        // STRATEGY
+        PruebaStrategy strategy = new PruebaStrategy();
+        strategy.prueba();
+
+
+
 
     }
 }
